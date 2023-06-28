@@ -1,0 +1,190 @@
+#Gitignore do backEnd
+
+backEnd/scraper/src/banco.py
+
+# Byte-compiled / optimized / DLL files
+backEnd/__pycache__/
+backEnd/*.py[cod]
+backEnd/*$py.class
+
+# C extensions
+backEnd/*.so
+
+# Distribution / packaging
+backEnd/.Python
+backEnd/build/
+backEnd/develop-eggs/
+backEnd/dist/
+backEnd/downloads/
+backEnd/eggs/
+backEnd/.eggs/
+backEnd/lib/
+backEnd/lib64/
+backEnd/parts/
+backEnd/sdist/
+backEnd/var/
+backEnd/wheels/
+backEnd/pip-wheel-metadata/
+backEnd/share/python-wheels/
+backEnd/*.egg-info/
+backEnd/.installed.cfg
+backEnd/*.egg
+backEnd/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+backEnd/*.manifest
+backEnd/*.spec
+
+# Installer logs
+backEnd/pip-log.txt
+backEnd/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+backEnd/htmlcov/
+backEnd/.tox/
+backEnd/.nox/
+backEnd/.coverage
+backEnd/.coverage.*
+backEnd/.cache
+backEnd/nosetests.xml
+backEnd/coverage.xml
+backEnd/*.cover
+backEnd/*.py,cover
+backEnd/.hypothesis/
+backEnd/.pytest_cache/
+
+# Translations
+backEnd/*.mo
+backEnd/*.pot
+
+# Django stuff:
+backEnd/*.log
+backEnd/local_settings.py
+backEnd/db.sqlite3
+backEnd/db.sqlite3-journal
+
+# Flask stuff:
+backEnd/instance/
+backEnd/.webassets-cache
+
+# Scrapy stuff:
+backEnd/.scrapy
+
+# Sphinx documentation
+backEnd/docs/_build/
+
+# PyBuilder
+backEnd/target/
+
+# Jupyter Notebook
+backEnd/.ipynb_checkpoints
+
+# IPython
+backEnd/profile_default/
+backEnd/ipython_config.py
+
+# pyenv
+backEnd/.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+backEnd/__pypackages__/
+
+# Celery stuff
+backEnd/celerybeat-schedule
+backEnd/celerybeat.pid
+
+# SageMath parsed files
+backEnd/*.sage.py
+
+# Environments
+backEnd/.env
+backEnd/.venv
+backEnd/env/
+backEnd/venv/
+backEnd/ENV/
+backEnd/env.bak/
+backEnd/venv.bak/
+
+# Spyder project settings
+backEnd/.spyderproject
+backEnd/.spyproject
+
+# Rope project settings
+backEnd/.ropeproject
+
+# mkdocs documentation
+backEnd/site
+
+# mypy
+backEnd/.mypy_cache/
+backEnd/.dmypy.json
+backEnd/dmypy.json
+
+# Pyre type checker
+backEnd/.pyre/
+
+## Gitignore do mobile
+
+# Miscellaneous
+mobile/*.class
+mobile/*.log
+mobile/*.pyc
+mobile/*.swp
+mobile/.DS_Store
+mobile/.atom/
+mobile/.buildlog/
+mobile/.history
+mobile/.svn/
+mobile/migrate_working_dir/
+
+# IntelliJ related
+mobile/*.iml
+mobile/*.ipr
+mobile/*.iws
+mobile/.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+mobile/**/doc/api/
+mobile/**/ios/Flutter/.last_build_id
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.pub-cache/
+mobile/.pub/
+mobile/build/
+
+# Symbolication related
+mobile/app.*.symbols
+
+# Obfuscation related
+mobile/app.*.map.json
+
+# Android Studio will place build artifacts here
+mobile/android/app/debug
+mobile/android/app/profile
+mobile/android/app/release
+mobile/linux/flutter/generated_plugin_registrant.cc
+mobile/linux/flutter/generated_plugin_registrant.h
+mobile/linux/flutter/generated_plugins.cmake
+mobile/macos/Flutter/GeneratedPluginRegistrant.swift
+mobile/test/widget_test.dart
+mobile/windows/flutter/generated_plugin_registrant.cc
+mobile/windows/flutter/generated_plugin_registrant.h
+mobile/windows/flutter/generated_plugins.cmake
+.vscode/settings.json
+backEnd/algoritmoRegressao/__pycache__/banco.cpython-311.pyc
